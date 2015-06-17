@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="Zone Annotator" type="rqt_zone_annotator.annotator.Annotator" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for mapping PEAC control actions to zones.
+    </description>
+    <qtgui>
+      <group>
+        <label>Logging</label>
+      </group>
+      <label>Zone Annotator</label>
+      <icon type="theme">system-help</icon>
+      <statustip>A plugin for mapping PEAC control actions to zones.</statustip>
+    </qtgui>
+  </class>
+</library>
